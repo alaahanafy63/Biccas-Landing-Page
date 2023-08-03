@@ -569,8 +569,36 @@ html {
   margin-right: -6rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-2\.5 {
+  margin-bottom: 0.625rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-3\.5 {
+  margin-bottom: 0.875rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
 }
 
 .mb-8 {
@@ -589,8 +617,28 @@ html {
   margin-top: 2.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
 .block {
   display: block;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -619,6 +667,14 @@ html {
 
 .flex-auto {
   flex: 1 1 auto;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-initial {
+  flex: 0 1 auto;
 }
 
 .flex-col {
@@ -673,6 +729,10 @@ html {
   gap: 2rem;
 }
 
+.gap-16 {
+  gap: 4rem;
+}
+
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -699,9 +759,18 @@ html {
   border-radius: 0.5rem;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .bg-accent {
   --tw-bg-opacity: 1;
   background-color: rgb(84 189 149 / var(--tw-bg-opacity));
+}
+
+.bg-gradient {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -714,6 +783,16 @@ html {
   background-color: rgb(244 244 245 / var(--tw-bg-opacity));
 }
 
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(133 218 185 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -724,6 +803,26 @@ html {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-96 {
+  padding: 24rem;
+}
+
+.p-48 {
+  padding: 12rem;
 }
 
 .px-2 {
@@ -739,6 +838,11 @@ html {
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-8 {
@@ -761,6 +865,11 @@ html {
   padding-bottom: 0.625rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -769,6 +878,26 @@ html {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .pb-12 {
@@ -829,6 +958,10 @@ html {
   font-weight: 700;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -881,6 +1014,17 @@ html {
 
   .sm\:self-center {
     align-self: center;
+  }
+
+  .sm\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 530px) {
+  .min-\[530px\]\:flex-wrap {
+    flex-wrap: wrap;
   }
 }
 
@@ -954,6 +1098,12 @@ html {
   }
 }
 
+@media (min-width: 1280px) {
+  .min-\[1280px\]\:flex-row {
+    flex-direction: row;
+  }
+}
+
 @media (min-width: 1440px) {
   .xl\:-ml-20 {
     margin-left: -5rem;
@@ -965,6 +1115,10 @@ html {
 
   .xl\:w-full {
     width: 100%;
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
   }
 
   .xl\:justify-between {
