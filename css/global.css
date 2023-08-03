@@ -1,0 +1,77 @@
+/* Hamburger Menu */
+
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: absolute;
+    right: 30px;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+@media (2080px <= width) {
+.main-section {
+  align-items: center;
+  gap: 6rem;
+}
+}
+
+@media (976px <= width <= 1190px) {
+.hero-img {
+  width: 70%;
+  height:70%;
+  margin-bottom: 38px;
+}
+}
+@media (1236px <= width <= 1439px) {
+.hero-img {
+  margin-right: -2.75rem;
+}
+}
+
+.hero-section {
+background: rgb(219,240,235);
+background: linear-gradient(328deg, rgba(219,240,235,1) 0%, rgba(244,241,238,1) 63%, rgba(219,240,235,1) 100%);
+}
+.logos-section {
+background: rgb(255,255,255);
+background: linear-gradient(7deg, rgba(255,255,255,1) 0%, rgba(244,241,238,1) 63%, rgba(219,240,235,1) 100%);
+}
