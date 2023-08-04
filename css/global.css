@@ -1,5 +1,4 @@
 /* Hamburger Menu */
-
 .hamburger {
   cursor: pointer;
   width: 24px;
@@ -47,26 +46,7 @@
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
-@media (2080px <= width) {
-.main-section {
-  align-items: center;
-  gap: 6rem;
-}
-}
-
-@media (976px <= width <= 1190px) {
-.hero-img {
-  width: 70%;
-  height:70%;
-  margin-bottom: 38px;
-}
-}
-@media (1236px <= width <= 1439px) {
-.hero-img {
-  margin-right: -2.75rem;
-}
-}
-
+/*Gradient Background*/
 .hero-section {
 background: rgb(219,240,235);
 background: linear-gradient(328deg, rgba(219,240,235,1) 0%, rgba(244,241,238,1) 63%, rgba(219,240,235,1) 100%);
@@ -88,6 +68,27 @@ background: rgb(255,255,255);
 background: linear-gradient(51deg, rgba(255,255,255,1) 21%, rgba(219,240,235,1) 94%, rgba(219,240,235,1) 100%);
 }
 
+/*Media Query*/
+@media (2080px <= width) {
+.main-section {
+  align-items: center;
+  gap: 6rem;
+}
+}
+
+@media (976px <= width <= 1190px) {
+.hero-img {
+  width: 70%;
+  height:70%;
+  margin-bottom: 38px;
+}
+}
+@media (1236px <= width <= 1439px) {
+.hero-img {
+  margin-right: -2.75rem;
+}
+}
+
 @media (706px <= width) {
 .teams-section {
   width: 565px;
@@ -103,5 +104,25 @@ background: linear-gradient(51deg, rgba(255,255,255,1) 21%, rgba(219,240,235,1) 
 
 @media (976px <= width <= 1200px) {
 .pricing-cards {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+}
+
+@media (976px <= width <= 1212px) {
+form input {
+  padding-right: 5rem !important;
+}
+}
+
+@media (976px <= width <= 1212px) {
+.form-button {
+  margin-left: 9rem;
+}
+}
+
+@media (width <= 522px) {
+.arrow-img {
+  left: 9rem;
+  margin-left: 8px;
+}
 }

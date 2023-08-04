@@ -21,6 +21,8 @@ module.exports = {
         secondary: '#85DAB9',
         gradient: '#F9FAFB',
         gray: '#A6A6A6',
+        darkGray: '#161C28',
+        darkGray50: '#222938',
       },
     },
   },
