@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Biccas Landing Page
+    </title>
+</head>
+
+<body>
+    <!--Hero Section-->
+    <section class="hero-section mx-auto px-20 md:px-32 bg-gradient-to-r w-full">
+        <div class="container">
+            <!--Nav-->
+            <div class="flex pb-14 lg:pb-32 pt-10  items-center justify-between">
+                <h2 class="text-3xl lg:text-4xl xl:text-5xl text-accent font-bold">Biccas</h2>
+                <nav>
+                    <div class="hidden lg:flex">
+                        <a href="#" class="mx-5 text-lg text-black font-bold">Home</a>
+                        <a href="#" class="mx-5 text-base text-gray">Product</a>
+                        <a href="#" class="mx-5 text-base text-gray">FAQ</a>
+                        <a href="#" class="mx-5 text-base text-gray">Blog</a>
+                        <a href="#" class="mx-5 text-base text-gray">About Us</a>
+                    </div>
+                    <!-- Hamburger Icon -->
+                    <button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                    <!-- Mobile Menu -->
+                    <div class="lg:hidden">
+                        <div id="menu"
+                            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold rounded-3xl bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md text-primary text-lg">
+                            <a href="#">Product</a>
+                            <a href="#">FAQ</a>
+                            <a href="#">Blog</a>
+                            <a href="#">About Us</a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="flex items-center justify-between">
+                    <button class="mr-5 text-sm lg:text-base text-gray">
+                        Login
+                    </button>
+                    <button class="bg-accent text-white rounded-lg py-2.5 px-2.5 text-sm lg:text-base">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+            <!--Main Section-->
+            <div
+                class="main-section flex flex-col-reverse pb-12 items-center lg:flex-row justify-between xl:gap-56 lg:items-start">
+                <div class="flex flex-col xl:gap-8 items-center lg:items-start gap-4">
+                    <h1 class="text-3xl lg:text-5xl xl:text-7xl font-bold text-center lg:text-left">We’re
+                        here
+                        to Increase
+                        your Productivity</h1>
+                    <img src="/img/line.png" alt="line" class="mt-10 w-9/12">
+                    <p class="lg:text-lg xl:text-xl text-black my-8 lg:my-12 text-center lg:text-left">Let's make
+                        your
+                        work
+                        more
+                        organize and easily using
+                        the Taskio
+                        Dashboard
+                        with
+                        many of the latest
+                        featuresin managing
+                        work every day.</p>
+
+                </div>
+                <img src="/img/hero-img.png" alt="smiling man with flying messages"
+                    class="hero-img flex-auto xl:-ml-7 xl:w-full xl:h-full">
+            </div>
+            <div class="flex items-center justify-center lg:justify-normal pb-16">
+                <button class="bg-accent text-white rounded-full py-4 px-8 text-base lg:text-lg whitespace-nowrap">
+                    Try free trial
+                </button>
+                <div class="flex items-center gap-2 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-8 h-8 ml-12">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+                    </svg>
+
+                    <button class="text-base lg:text-lg text-primary whitespace-nowrap">
+                        View Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Logos Section-->
+    <section class="logos-section mx-auto px-20 md:px-32 w-full pt-16">
+        <div class="container">
+            <h2 class="text-4xl	font-bold text-center pb-14">More than 25,000 teams use Collabs</h2>
+            <div class="flex items-center gap-8 xl:justify-between flex-wrap xl:gap-4 justify-center pb-32">
+                <img src="img/Unsplash.png" alt="unsplash logo">
+                <img src="img/Notion.png" alt="notion logo">
+                <img src="img/Intercom.png" alt="intercom logo">
+                <img src="img/descript.png" alt="descript logo">
+                <img src="img/grammarly.png" alt="grammarly logo">
+            </div>
+        </div>
+    </section>
+
+    <!--Partners section-->
+    <section class="mx-auto px-20 md:px-32 bg-zinc-100 py-16">
+        <div class="container">
+            <div class="flex justify-around gap-10 flex-col lg:flex-row">
+                <!--Left section-->
+                <div class="flex flex-col gap-8 items-center lg:items-start">
+                    <div>
+                        <h3 class="text-5xl	font-bold text-primary text-center lg:text-left">How we support our pratner
+                            all
+                            over the world</h3>
+                        <p class="lg:text-base xl:text-lg text-gray my-8 lg:my-12 text-center lg:text-left">SaaS become
+                            a
+                            common
+                            delivery model for many business application, including office software, messaging software,
+                            payroll processing software, DBMS software, management software</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-8">
+                        <div class="flex flex-col items-center lg:items-start gap-4">
+                            <img src="/img/5-starts.png" alt="5 stars rating">
+                            <p class="text-lg text-primary font-bold whitespace-nowrap">4.9 / 5 rating</p>
+                            <p class="text-lg text-gray font-bold">databricks</p>
+                        </div>
+                        <div class="flex flex-col items-start gap-4 lg:mr-60">
+                            <img src="/img/4-starts.png" alt="4 stars rating">
+                            <p class="text-lg text-primary font-bold whitespace-nowrap">4.8 / 5 rating</p>
+                            <p class="text-lg text-gray font-bold">Chainalysis</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Right section-->
+                <div class="flex flex-col gap-8">
+                    <div class="flex lg:justify-around gap-6">
+                        <img src="/img/publishing.png" alt="publishing icon"
+                            class="p-2 bg-white shadow flex self-start">
+                        <div class="flex flex-col gap-4">
+                            <p class="text-3xl text-primary font-bold">Publishing</p>
+                            <p class="text-lg text-gray">Plan, collaborate, and publishing your contetn that drivees
+                                meaningful
+                                engagement and growth for
+                                your barnd</p>
+                        </div>
+                    </div>
+                    <div class="flex lg:justify-around gap-6">
+                        <img src="/img/analytics.png" alt="analytics icon" class="p-2 bg-white shadow flex self-start">
+                        <div class="flex flex-col gap-4">
+                            <p class="text-3xl text-primary font-bold">Analytics</p>
+                            <p class="text-lg text-gray">Analyze your performance and create goegeous report</p>
+                        </div>
+                    </div>
+                    <div class="flex lg:justify-around gap-6">
+                        <img src="/img/engagement.png" alt="engagement icon"
+                            class="p-2 bg-white shadow flex self-start">
+                        <div class="flex flex-col gap-4">
+                            <p class="text-3xl text-primary font-bold">Engagement</p>
+                            <p class="text-lg text-gray">Quiuckly navigate you anda engage with your adience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Features section-->
+    <section class="features-section mx-auto px-20 md:px-32 py-16">
+        <div class="container">
+            <div class="flex justify-between items-center pb-16 flex-col lg:flex-row gap-8">
+                <h3 class="text-5xl	font-bold text-primary text-center lg:text-left">
+                    Our Features you cab get
+                </h3>
+                <p class="text-gray lg:text-base xl:text-lg text-center lg:text-left">
+                    We offer a variety of interesting features that you can help increase yor productivity at work and
+                    manage your projrct
+                    esaly
+                </p>
+                <button class="bg-accent text-white rounded-full py-4 px-8 text-base lg:text-lg whitespace-nowrap">
+                    Get Started
+                </button>
+            </div>
+            <div class="flex items-center gap-8 justify-between flex-col lg:flex-row">
+                <div class="teams-section flex flex-col gap-8 flex-auto">
+                    <img src="img/collboration teams.png" alt="Collboration Teams" class="w-full">
+                    <p class="text-3xl text-primary font-semibold text-center lg:text-left">Collboration Teams</p>
+                    <p class="text-lg text-gray text-center lg:text-left">Here you can handle projects together with
+                        team
+                        virtually</p>
+                </div>
+                <div class="flex flex-col gap-8 flex-auto">
+                    <img src="img/Cloud Storage.png" alt="Cloud storage" class="w-full">
+                    <p class="text-3xl text-primary font-semibold text-center lg:text-left">Cloud Storage</p>
+                    <p class="text-lg text-gray text-center lg:text-left">No nedd to worry about storage because we
+                        provide
+                        storage up to 2 TB</p>
+                </div>
+                <div class="flex flex-col gap-8 flex-auto">
+                    <img src="img/Daily Analytics.png" alt="daily analytics" class="w-full">
+                    <p class="text-3xl text-primary font-semibold text-center lg:text-left">Daily Analytics</p>
+                    <p class="text-lg text-gray text-center lg:text-left">We always provide useful informatin to make it
+                        easier for you every day</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Benefits section-->
+    <section class="benefits-section mx-auto px-20 md:px-32 py-16">
+        <div class="container">
+            <div class="flex justify-between gap-8 flex-col-reverse lg:flex-row">
+                <div>
+                    <h3 class="text-5xl	font-bold text-primary text-center lg:text-left mb-12">
+                        What Benifit Will You Get
+                    </h3>
+                    <ul>
+                        <li>
+                            <div class="flex items-center gap-2 list">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-check-circle-fill fill-accent" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                </svg>
+                                <p class="text-lg font-medium">Free Consulting With Experet Saving Money
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center gap-2 list">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-check-circle-fill fill-accent" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                </svg>
+                                <p class="text-lg font-medium">Online Banking</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center gap-2 list">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-check-circle-fill fill-accent" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                </svg>
+                                <p class="text-lg font-medium">Investment Report Every Month</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center gap-2 list">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-check-circle-fill fill-accent" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                </svg>
+                                <p class="text-lg font-medium">Saving Money For The Future</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-check-circle-fill fill-accent" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                </svg>
+                                <p class="text-lg font-medium">Online Transection</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <img src="/img/benefits.png" alt="benefits" class="benefits-img -mr-24">
+            </div>
+        </div>
+    </section>
+
+    <!--Pricing section-->
+    <section class="pricing-section flex flex-col mx-auto px-20 md:px-32 py-16">
+        <div class="container">
+            <div class="flex flex-col">
+                <h3 class="text-5xl	font-bold text-primary text-center mb-12">
+                    Choose Plan
+                    That’s Right For You
+                </h3>
+                <p class="text-gray font-bold lg:text-base xl:text-lg text-center mb-10">
+                    Choose plan that works best for you, feel free to contact us
+                </p>
+                <div class="flex justify-center mb-16">
+                    <div class="bg-white rounded-lg py-3 flex gap-10 items-center px-8">
+                        <p class="text-lg font-semibold text-primary whitespace-nowrap">Bil Monthly</p>
+                        <button>
+                            <p
+                                class="text-lg font-semibold text-white bg-accent rounded-lg py-3 px-4 sm:px-8 whitespace-nowrap">
+                                Bil
+                                Yearly</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--Pricing Cards-->
+            <div class="pricing-cards flex items-center gap-8 justify-center flex-col lg:flex-row">
+                <!--Card 1-->
+                <div class="flex flex-initial bg-white p-8 rounded-3xl shadow max-w-sm">
+                    <div class="flex flex-auto flex-col items-center gap-8">
+                        <p class="text-3xl text-primary font-semibold mb-2.5 text-center">
+                            Free
+                        </p>
+                        <p class="text-lg text-gray font-medium mb-3.5 text-center">
+                            Have a go and test your superpowers
+                        </p>
+                        <p class="text-3xl text-primary font-semibold mb-2.5 text-center">
+                            <sup class="text-gray">$</sup>
+                            0
+                        </p>
+                        <div class="bg-gradient p-8 rounded-lg">
+                            <div class="flex flex-auto items-center flex-col">
+                                <ul>
+                                    <li>
+                                        <div class="flex items-center gap-2 mb-8">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">2 Users</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex items-center gap-2 mb-8">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">2 Files</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex items-center gap-2 mb-8">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">Public Share /& Comments</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex items-center gap-2 mb-8">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">Chat Support</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex items-center gap-2  mb-7">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">New income apps</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <button class="bg-white p-6 px-14 rounded-3xl shadow">
+                                    <p class="text-accent font-bold text-lg text-center whitespace-nowrap">Signup for
+                                        free
+                                    </p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Card 2-->
+                <div class="flex flex-initial bg-accent p-8 rounded-3xl shadow max-w-sm">
+                    <div class="flex flex-auto flex-col items-center gap-8">
+                        <p class="text-3xl text-white font-semibold mb-2.5 text-center">
+                            Pro
+                        </p>
+                        <p class="text-lg text-white font-medium mb-3.5 text-center">
+                            Experiment the power of infinite possibilities
+                        </p>
+                        <p class="text-3xl text-white font-semibold mb-2.5 text-center">
+                            <sup class="text-white">$</sup>
+                            8
+                        </p>
+                        <button class="bg-secondary p-4 rounded-3xl shadow mb-4 inline-block">
+                            <p class="text-white font-bold text-lg text-center">Save $50 a year</p>
+                        </button>
+                        <div class="bg-gradient p-8 rounded-lg">
+                            <div class="flex flex-auto items-center flex-col">
+                                <ul>
+                                    <li>
+                                        <div class="flex items-center gap-2 mb-8">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">4 Users</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex items-center gap-2 mb-8">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">All apps</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex items-center gap-2 mb-8">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">Unlimited editable exports</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex items-center gap-2 mb-8">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">Folders and collaboration</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex items-center gap-2  mb-7">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">All incoming apps</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <button class="bg-accent p-6 px-20 rounded-3xl shadow">
+                                    <p class="text-white font-bold text-lg text-center whitespace-nowrap">Go to pro</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Card 3-->
+                <div class="flex flex-initial bg-white p-8 rounded-3xl shadow max-w-sm">
+                    <div class="flex flex-auto flex-col items-center gap-8">
+                        <p class="text-3xl text-primary font-semibold mb-2.5 text-center">
+                            Business
+                        </p>
+                        <p class="text-lg text-gray font-medium mb-3.5 text-center">
+                            Unveil new superpowers and join the Design Leaque
+                        </p>
+                        <p class="text-3xl text-primary font-semibold mb-2.5 text-center">
+                            <sup class="text-gray">$</sup>
+                            16
+                        </p>
+                        <div class="bg-gradient p-8 rounded-lg">
+                            <div class="flex flex-auto items-center flex-col">
+                                <ul>
+                                    <li>
+                                        <div class="flex items-center gap-2 mb-8">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">All the features of pro plan</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex items-center gap-2 mb-8">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">Account success Manager</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex items-center gap-2 mb-8">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">Single Sign-On (SSO)</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex items-center gap-2 mb-8">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">Co-conception pogram</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex items-center gap-2  mb-7">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-check-circle-fill fill-accent"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                            </svg>
+                                            <p class="text-lg text-primary font-medium">Collaboration-Soon</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <button class="bg-white p-6 rounded-3xl px-14 shadow">
+                                    <p class="text-accent font-bold text-lg text-center whitespace-nowrap">Goto Business
+                                    </p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-darkGray mx-auto px-20 md:px-32 py-16">
+        <div class="container">
+            <!--First Section Testimonial & Form-->
+            <div
+                class="flex items-center justify-between gap-24 flex-col lg:items-start lg:flex-row flex-1 mb-44 mt-16">
+                <!--Testimonial-->
+                <div class="flex items-center flex-col lg:items-start flex-auto">
+                    <h3 class="text-3xl	font-bold text-white text-center min-[1230px]:text-5xl lg:text-left mb-5">
+                        People are Saying About DoWhith
+                    </h3>
+                    <p class="text-gray font-semibold lg:text-base xl:text-lg text-center lg:text-left mb-10">
+                        Everything you need to accept to payment and grow your money of manage anywhere on planet
+                    </p>
+                    <img src="/img/Quote.png" alt="Quote" class="mb-10">
+                    <p class="text-gray font-semibold lg:text-base xl:text-lg text-center lg:text-left mb-10">
+                        I am very helped by this E-wallet application , my days are very easy to use this application
+                        and
+                        its very helpful in my
+                        life , even I can pay a short time 😍
+                    </p>
+                    <p class="text-gray font-semibold lg:text-base xl:text-lg text-center lg:text-left mb-10">
+                        _ Aria Zinanrio
+                    </p>
+                    <div class="flex gap-2 items-center justify-center lg:justify-start flex-wrap">
+                        <img src="/img/person 1.png" alt="person 1">
+                        <img src="/img/person 2.png" alt="person 2">
+                        <img src="/img/person 3.png" alt="person 3">
+                        <img src="/img/person 4.png" alt="person 4">
+                        <img src="/img/more icon.png" alt="view more">
+                    </div>
+                </div>
+
+                <!--Form-->
+                <div class="bg-darkGray50 rounded-2xl p-16 flex flex-col items-center flex-auto">
+                    <img src="/img/form icon.png" alt="form icon" class="mb-2.5">
+                    <div class="flex items-center flex-col">
+                        <form action="https://httpbin.org/get" method="get" class="flex flex-col" target="_blank">
+
+                            <label for="email" class="font-semibold text-white text-lg">Email</label><br>
+                            <input type="email" id="email" name="email"
+                                class="rounded-lg text-sm text-gray py-4 pl-5 pr-5 min-[522px]:pr-48 bg-white flex flex-auto mb-4"
+                                placeholder="Enter your email">
+
+
+                            <label for="message" class="font-semibold text-white text-lg">Message</label><br>
+                            <input type="message" id="message" name="message"
+                                class="rounded-lg text-sm text-gray py-4 pl-5 pr-5 min-[522px]:pr-48 bg-white flex flex-auto"
+                                placeholder="What are you say ?">
+
+                            <input type="submit" value="Request Demo"
+                                class="bg-accent py-5 px-4 text-white rounded-lg mt-5">
+                        </form>
+                        <button class="form-button text-sm text-gray mt-2.5 ml-20 min-[522px]:ml-64 flex flex-auto">or
+                            Start
+                            Free
+                            Trial</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Second Section Logo & Useful Links-->
+            <div class="flex items-center justify-between flex-col lg:flex-row lg:items-start gap-6 mb-20">
+                <div>
+                    <h2 class="text-3xl lg:text-4xl xl:text-5xl text-accent font-bold mb-8 text-center lg:text-left">
+                        Biccas
+                    </h2>
+                    <p class="text-gray font-semibold lg:text-base xl:text-lg text-center lg:text-left mb-8">
+                        Get started noew try our product
+                    </p>
+                    <div class="relative">
+                        <input type="email" id="emails" name="emails"
+                            class="rounded-full text-sm text-gray py-4 pl-5 pr-5 border-2 bg-darkGray border-gray flex flex-auto mb-4 min-[522px]:pr-48"
+                            placeholder="Enter your email">
+                        <img src="/img/arrow-right.png" alt="arrow-right"
+                            class="arrow-img bg-accent rounded-full p-2.5 absolute top-1.5 left-80">
+                    </div>
+                </div>
+                <!--Usful Links-->
+                <div class="flex items-start justify-between gap-4 sm:gap-24 lg:gap-8 flex-col md:flex-row">
+                    <div class="flex items-start flex-col">
+                        <h3 class="text-lg text-white font-medium mb-8 whitespace-nowrap">Support</h3>
+                        <a href="#" class="text-lg text-gray font-medium mb-5">Help centre</a>
+                        <a href="#" class="text-lg text-gray font-medium mb-5">Account information</a>
+                        <a href="#" class="text-lg text-gray font-medium mb-5">About</a>
+                        <a href="#" class="text-lg text-gray font-medium">Contact us</a>
+                    </div>
+                    <div class="flex items-start flex-col">
+                        <h3 class="text-lg text-white font-medium mb-8 whitespace-nowrap">Help and Solution</h3>
+                        <a href="#" class="text-lg text-gray font-medium mb-5">Talk to support</a>
+                        <a href="#" class="text-lg text-gray font-medium mb-5">Support docs</a>
+                        <a href="#" class="text-lg text-gray font-medium mb-5">System status</a>
+                        <a href="#" class="text-lg text-gray font-medium">Covid responde</a>
+                    </div>
+                    <div class="flex items-start flex-col lg:-mr-9">
+                        <h3 class="text-lg text-white font-medium mb-8 whitespace-nowrap">Product</h3>
+                        <a href="#" class="text-lg text-gray font-medium mb-5">Update</a>
+                        <a href="#" class="text-lg text-gray font-medium mb-5">Security</a>
+                        <a href="#" class="text-lg text-gray font-medium mb-5">Beta test</a>
+                        <a href="#" class="text-lg text-gray font-medium">Pricing product</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Third copyrights-->
+            <div class="flex items-center justify-between gap-5 flex-col lg:flex-row">
+                <div>
+                    <p class="text-lg text-white font-medium text-center sm:whitespace-nowrap">&copy;2022 Biccas Inc.
+                        Copyright and
+                        rights
+                        reserved</p>
+                </div>
+                <div class="flex items-center justify-between gap-5">
+                    <a href="#" class="text-lg text-white font-medium whitespace-nowrap">Terms and Condtions</a>
+                    <p class="text-lg text-white font-medium">.</p>
+                    <a href="#" class="text-lg text-white font-medium whitespace-nowrap">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>

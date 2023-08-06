@@ -1,0 +1,16 @@
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #191A15;
+}
+
+li .list svg {
+  margin-bottom: 2rem;
+}
+li .list p {
+  margin-bottom: 2rem;
+  color: #191A15;
+}
