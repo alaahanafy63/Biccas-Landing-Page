@@ -109,7 +109,7 @@ background: linear-gradient(77deg, rgba(255,255,255,1) 0%, rgba(236,244,241,1) 5
 
 @media (1285px <= width) {
 .list {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 }
 
